@@ -222,24 +222,24 @@ Or in VS Code: open `.ipynb` and select the `.venv` kernel.
 
 ## ✅ DOs
 
-✔ Use `uv run` instead of raw `python`
-✔ Use `uv add` / `uv add --dev` — never `pip install`
-✔ Keep `.python-version` in version control
-✔ Commit `uv.lock` — it's the source of truth for CI and production
-✔ Delete `.venv` when something feels off
-✔ Run tests before pushing
+- ✔ Use `uv run` instead of raw `python`
+- ✔ Use `uv add` / `uv add --dev` — never `pip install`
+- ✔ Keep `.python-version` in version control
+- ✔ Commit `uv.lock` — it's the source of truth for CI and production
+- ✔ Delete `.venv` when something feels off
+- ✔ Run tests before pushing
 
 ---
 
 ## ❌ DON'Ts
 
-❌ `pip install` manually
-❌ `!pip install` inside notebooks
-❌ Edit `uv.lock` by hand
-❌ Commit `.venv`
-❌ Rely on system Python
-❌ Share `.venv` across projects
-❌ Put production logic in notebooks
+- ❌ `pip install` manually
+- ❌ `!pip install` inside notebooks
+- ❌ Edit `uv.lock` by hand
+- ❌ Commit `.venv`
+- ❌ Rely on system Python
+- ❌ Share `.venv` across projects
+- ❌ Put production logic in notebooks
 
 ---
 
